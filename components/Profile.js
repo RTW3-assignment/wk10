@@ -46,7 +46,7 @@ export default function Profile(props) {
                                 following: {profile.stats.totalFollowing} followers:{" "}
                                 {profile.stats.totalFollowers}
                             </p>
-                            <p className="mt-2 text-xs text-slate-500">
+                            <p className="mt-2 text-xs text-slate-500" style={{color:"red"}}>
                                 posts: {profile.stats.totalPosts} comments: {" "}
                                 {profile.stats.totalComments} mirrors: {profile.stats.totalMirrors}
                             </p>
